@@ -1,0 +1,210 @@
+{
+    "menu": [
+        {
+            "nombre": "Pizza Grande Casera",
+            "precio": "$7000",
+            "opciones": [
+                "Queso"
+            ],
+            "titulo": "Pizzas"
+        },
+        {
+            "nombre": "Pizza Chica Casera",
+            "precio": "$5000",
+            "opciones": [
+                "Queso"
+            ]
+        },
+        {
+            "nombre": "Adicionales",
+            "precio": "$1500",
+            "opciones": [
+                "Cebolla",
+                "Tomate",
+                "Jam\u00f3n",
+                "Huevo"
+            ]
+        },
+        {
+            "nombre": "Empanada",
+            "precio": "$1600",
+            "opciones": [
+                "Carne",
+                "Jam\u00f3n y Queso",
+                "Choclo"
+            ],
+            "titulo": "Empanadas"
+        },
+        {
+            "nombre": "Milanesa",
+            "precio": "$5000",
+            "opciones": [
+                "Carne",
+                "Pollo",
+                "Soja"
+            ],
+            "titulo": "Milanesas"
+        },
+        {
+            "nombre": "Milanesa A La Napolitana",
+            "precio": "$6000",
+            "opciones": [
+                "Carne",
+                "Pollo",
+                "Soja"
+            ]
+        },
+        {
+            "nombre": "S\u00e1ndwich De Milanesa",
+            "precio": "$5000",
+            "opciones": [
+                "Carne",
+                "Pollo",
+                "Soja"
+            ]
+        },
+        {
+            "nombre": "Adicionales",
+            "precio": "$1000",
+            "opciones": [
+                "Lechuga y Tomate"
+            ]
+        },
+        {
+            "nombre": "Guarnici\u00f3n",
+            "precio": "$1500",
+            "opciones": [
+                "Papas Fritas",
+                "Ensalada De Lechuga y Tomate",
+                "Ensalada De Zanahoria y Tomate",
+                "Ensalada De Tomate y Huevo",
+                "Pur\u00e9 De Papas",
+                "Pur\u00e9 De Calabaza",
+                "Papa y Huevo"
+            ]
+        },
+        {
+            "nombre": "Ensalada Mixta",
+            "precio": "$4500",
+            "opciones": [
+                "Con Lechuga y Tomate"
+            ],
+            "titulo": "Ensaladas"
+        },
+        {
+            "nombre": "Ensalada Completa",
+            "precio": "$4500",
+            "opciones": [
+                "Lechuga, Tomate, Cebolla y Zanahoria"
+            ]
+        },
+        {
+            "nombre": "Ensalada Papa y Huevo",
+            "precio": "$4500",
+            "opciones": [
+                "Papa y Huevo"
+            ]
+        },
+        {
+            "nombre": "Porci\u00f3n De Papas Fritas",
+            "precio": "$4500",
+            "opciones": [],
+            "titulo": "Papas"
+        },
+        {
+            "nombre": "Tortilla Individual",
+            "precio": "$5000",
+            "opciones": [
+                "Huevo, Papa y Cebolla"
+            ]
+        },
+        {
+            "nombre": "Tarta Individual",
+            "precio": "$4500",
+            "opciones": [
+                "Verdura y Queso",
+                "Jam\u00f3n y Queso",
+                "Zucchini",
+                "Calabaza",
+                "Repollo"
+            ],
+            "titulo": "Tartas"
+        },
+        {
+            "nombre": "Tarta Individual De Pollo",
+            "precio": "$5000",
+            "opciones": [
+                "Pollo"
+            ]
+        },
+        {
+            "nombre": "Hamburguesa Gigante",
+            "precio": "$6000",
+            "opciones": [],
+            "titulo": "Hamburguesas"
+        },
+        {
+            "nombre": "Hamburguesa Veggie",
+            "precio": "$5000",
+            "opciones": []
+        },
+        {
+            "nombre": "Adicionales",
+            "precio": "$1000",
+            "opciones": [
+                "Queso",
+                "Lechuga",
+                "Tomate"
+            ]
+        },
+        {
+            "nombre": "Guarnici\u00f3n",
+            "precio": "$1500",
+            "opciones": [
+                "Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Plato De Pasta",
+            "precio": "$6000",
+            "opciones": [
+                "Espaguetis",
+                "Tirabuz\u00f3n",
+                "Tallar\u00edn",
+                "Mostachol"
+            ],
+            "titulo": "Pastas"
+        },
+        {
+            "nombre": "Salsas",
+            "precio": "",
+            "opciones": [
+                "Fileto",
+                "Bolo\u00f1esa",
+                "Con Crema"
+            ]
+        }
+    ],
+    "categorias": [
+        {
+            "nombre": "Pizza",
+            "imagen": ".\/src\/jpg\/pizza.jpeg"
+        },
+        {
+            "nombre": "Milanesa",
+            "imagen": ".\/src\/jpg\/milanesa.jpeg"
+        },
+        {
+            "nombre": "Ensalada",
+            "imagen": ".\/src\/jpg\/ensalada.jpeg"
+        },
+        {
+            "nombre": "Tarta",
+            "imagen": ".\/src\/jpg\/tarta.jpg"
+        },
+        {
+            "nombre": "Pasta",
+            "imagen": ".\/src\/jpg\/pasta.jpeg"
+        }
+    ]
+}
