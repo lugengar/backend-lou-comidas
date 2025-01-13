@@ -39,7 +39,7 @@ const deleteItem = (menuData, nombre) => {
 };
 
 // Ruta para verificar la contraseña
-app.post('/contraseña', async (req, res) => {
+app.post('/contrasena', async (req, res) => {
     const { password } = req.body;
 
     // Compara la contraseña con el hash almacenado en el archivo .env
