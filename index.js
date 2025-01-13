@@ -64,5 +64,5 @@ app.listen(port, () => {
     console.log(`API listening at http://localhost:${port}`);
 });
 app.use(cors({
-    origin: 'http://127.0.0.1:5500'  // Solo permite solicitudes de este dominio
+    origin: 'https://lugengar.github.io/lou_comidas/'  // Solo permite solicitudes de este dominio
 }));
