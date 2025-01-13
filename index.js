@@ -1,10 +1,15 @@
 const express = require('express');
 const fs = require('fs');
-const cors = require('cors');  // Importa cors
+const cors = require('cors');
+const bcrypt = require('bcryptjs');
+const dotenv = require('dotenv');
+
+dotenv.config();  // Carga las variables de entorno desde el archivo .env
+
 const app = express();
 const port = 3000;
 
-app.use(cors());  // Habilita CORS para todas las solicitudes
+app.use(cors());
 app.use(express.json());
 
 // Cargar JSON
@@ -32,6 +37,19 @@ const deleteItem = (menuData, nombre) => {
     }
     return false;
 };
+
+// Ruta para verificar la contraseña
+app.post('/contraseña', async (req, res) => {
+    const { password } = req.body;
+
+    // Compara la contraseña con el hash almacenado en el archivo .env
+    const isValid = await bcrypt.compare(password, process.env.PASSWORD_HASH);
+    if (isValid) {
+        return res.json({ success: true });
+    } else {
+        return res.status(401).json({ success: false, message: 'Contraseña incorrecta' });
+    }
+});
 
 // Ruta principal para manejar solicitudes
 app.post('/menu', (req, res) => {
@@ -63,6 +81,4 @@ app.get('/menu', (req, res) => {
 app.listen(port, () => {
     console.log(`API listening at http://localhost:${port}`);
 });
-app.use(cors({
-    origin: 'https://lugengar.github.io/lou_comidas/'  // Solo permite solicitudes de este dominio
-}));
+
